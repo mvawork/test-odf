@@ -15,7 +15,7 @@ dependencies {
 jar {
     manifest {
 
-        attributes("Main-Class": "ru.mvawort.test.odf.Main", "Manifest-Version": "1.0",
+        attributes("Main-Class": "ru.mvawork.test.odf.FillTemplate", "Manifest-Version": "1.0",
                 "Implementation-Version": version)
     }
 }

@@ -1,4 +1,4 @@
-package ru.mvawort.test.odf
+package ru.mvawork.test.odf
 
 import org.odftoolkit.simple.TextDocument
 import org.odftoolkit.simple.text.Paragraph
