@@ -11,3 +11,11 @@ dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.3.11'
     compile group: 'org.apache.odftoolkit', name: 'simple-odf', version: '0.8.2-incubating'
 }
+
+jar {
+    manifest {
+
+        attributes("Main-Class": "ru.mvawort.test.odf.Main", "Manifest-Version": "1.0",
+                "Implementation-Version": version)
+    }
+}
